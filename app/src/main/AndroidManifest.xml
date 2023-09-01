@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidDersleri"
         tools:targetApi="31">
+        <provider
+            android:name=".StudentsProvider"
+            android:authorities="az.metleb.androiddersleri.provider.College"
+            android:enabled="true"
+            android:exported="true"></provider>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
