@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidDersleri</string>
+    <string name="landscape_message">Landscape Mode</string>
+    <string name="portrait_message">Portrait Mode</string>
 </resources>
